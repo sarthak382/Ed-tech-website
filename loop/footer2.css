@@ -1,0 +1,78 @@
+#sas{
+    margin-top: 500px;
+}
+.hloop{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 42.6667px;
+line-height: 64px;
+/* or 150% */
+color: #2F327D;
+/* display: flex;
+align-items: flex-end; */
+letter-spacing: -0.666667px;
+}
+
+
+
+#icon::placeholder{
+    color: #2F327D;
+}
+#icon{
+    background-image:url(imgs/icon-edit.png); 
+    background-repeat: no-repeat; 
+    background-position: 200px 2px;
+    background-size: 50px 50px;
+    border-radius: 20px;
+}
+
+#email{
+    background-image:url(imgs/icon-mail.png); 
+    background-repeat: no-repeat; 
+    background-position: 125px 0px;
+    background-size: 30px 30px;
+    
+    
+}
+
+#name{
+    background-image:url(imgs/icon-user.png); 
+    background-repeat: no-repeat; 
+    background-position: 125px 0px;
+    background-size: 30px 30px;
+    
+}
+
+
+.send{
+
+    border-radius: 15px;
+    background-color: #2F327D;
+    height: 80px ;
+    width: 200px ;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 48px;
+/* or 150% */
+
+/* display: flex;
+align-items: center;
+text-align: center; */
+letter-spacing: 0.333333px;
+
+/* White */
+
+color: #FFFFFF;
+
+}
+
+.fcon{
+    height: 50px ;
+    width: 50px; ;
+}
+
+

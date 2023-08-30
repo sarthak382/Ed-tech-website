@@ -1,0 +1,104 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    /* background-color: #f1f1f1; */
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    background-color: rgb(255 255 255);
+    border: 1px solid rgb(196, 182, 182) ;
+    border-radius: 0.375rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+
+  @media (min-width: 1024px) { 
+    .tab{
+        display: inline-flex;
+        justify-content: center;
+    }
+ }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    /* border: none; */
+    border: 1px solid transparent; 
+    border-radius: 0.375rem; 
+    outline: none;
+    cursor: pointer;
+    /* padding: 14px 16px; */
+    transition: 0.3s;
+    font-size: 17px;
+    /* ax */
+    text-align: center;
+    margin: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+  }
+
+
+  @media (min-width: 1024px) {
+    .tab button{
+       padding-left: 1.5rem;
+       padding-right: 1.5rem;
+       font-size: 1.125rem;
+       line-height: 1.75rem;
+       cursor: pointer;
+       border: 1px solid transparent;
+       border-radius: 0.375rem;
+    }
+}
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    /* background-color: #ddd; */
+    background-color:rgb(255, 250, 200);
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    /* background-color: #ccc; */
+    background-color:#fffaf0;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 0.375rem;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    /* padding: 6px 12px;
+   
+    border-top: none; */
+  }
+  
+  
+
+.sas{
+    /* width: 100px; */
+    /* height: 100px; */
+    /* background-color: red; */
+    animation-name: example;
+    animation-duration: 1s;
+}
+
+@keyframes example {
+    0%   {
+    /* background-color: red; */
+    transform: scale(0.01);
+    
+    }
+    100% {
+    transform:  scale(1);
+   
+    }
+  }

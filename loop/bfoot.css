@@ -1,0 +1,162 @@
+.manaliog{
+    margin-top: 50px;
+}
+.manali{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 35px;
+}
+
+.manali1{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 35px;
+}
+
+
+
+.finstructors{
+    position: relative;
+   width: 465px ;
+   height: 300px ;
+   
+}
+
+.sact{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.sact h3{
+    
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.fstudents{
+    position: relative;
+    width: 465px ;
+   height: 300px ;
+}
+
+.eac{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+}
+
+.eac h3{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+ .fstart{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    padding: 13px 30px;
+    display: inline-block;
+    margin-top: 7px;
+    color: #fff;
+    /* width: 283px; */
+    /* height: 80px;  */
+    
+    font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 33px;
+/* identical to box height */
+  text-align: center;
+}
+
+.bfoot .active{
+    background: rgba(35, 189, 238, 0.9);
+    border-color: rgba(35, 189, 238, 1);
+    /* opacity: 5; */
+    color: #fff;
+}
+
+.bfoot{
+    column-gap: 0px;
+}
+
+.bfootb{
+    font-family:  'Poppins', sans-serif;
+    /* font-style: medium; */
+    font-weight:555;
+    /* font-size: 36px;
+    line-height: 180%; */
+    /* identical to box height, or 65px */
+    
+    
+    color: #2F327D;
+    font-style: normal;
+    /* font-size: 42px;
+    line-height: 65px; */
+    font-size: 34px;
+    line-height: 45px;
+}
+
+.bfootp{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 180%;
+margin-top: 25px;
+/* or 43px */
+
+text-align: center;
+
+color: #696984;
+
+margin-bottom: 60px;
+}
+
+
+@media(max-width:991px){
+    .bfootp br{
+        display: none;
+    }
+
+  
+       
+    }
+@media(max-width:1199px){
+    .manali{
+        display: flex;
+        justify-content: center;
+        padding-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .manali1{
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+}

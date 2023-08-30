@@ -1,0 +1,170 @@
+.rex{
+    border-radius: 50px;
+    margin-right: 10px;
+    width: 170px ;
+    height: 65px;
+    background-color: #2F327D;
+    color: whitesmoke;
+    font-family:inter ,sans-serif;
+ font-style: normal;
+ font-weight: 800;
+ /* font-size: 24px;
+ line-height: 36px; */
+ font-size: 19px;
+ line-height: 160%;
+}
+
+#kids{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+/* font-size: 44px;
+line-height: 81px; */
+font-size: 42px;
+    line-height: 65px;
+color: #2F327D ;
+
+
+/* margin-left: 80px; */
+}
+ /* #kids br{
+     display: none;
+ } */
+
+
+#how{
+    font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: normal;
+/* font-size: 24px;
+line-height: 36px; */
+font-size: 19px;
+ line-height: 160%;
+ color:#252641;
+
+}
+
+#para{
+    font-family: 'Nunito Sans', sans-serif;
+font-style: normal;
+font-weight: normal;
+/* font-size: 20px; */
+line-height: 160%;
+/* or 38px */
+font-size: 19px;
+/* line-height: 1.5; */
+/* font-weight: 400; */
+
+color: #464646;
+}
+
+
+
+
+/* #topc{
+    margin-top: 0px;
+   
+} */
+
+
+ #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+    color:#252641;
+
+} 
+
+#navbarSupportedContent .navbar-nav .nav-item {
+    
+
+
+font-family: 'Poppins',sans-serif;
+font-style: normal;
+font-weight: normal;
+/* font-size: 22px;
+line-height: 33px; */
+font-size: 18px;
+ line-height: 160%;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+
+color: #252641;
+}
+
+
+
+
+
+.navbar .container-fluid .navbar-brand{
+    /* position: relative; */
+    /* background: url("imgs/loopholetechlogo\ 1.png"); */
+    width: 255px;
+   height: 43px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 50px ;
+} 
+
+
+.contentt{
+    max-width: 2000px;
+}
+
+/* .containerr {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 2000px;
+  } */
+
+
+/* .contentt {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 30px;
+} */
+
+
+
+@media(max-width:530px){
+    #kids br{
+        display: none;
+    }
+
+    #topc{
+        margin-top: 0px;
+       
+    }
+
+}
+
+@media(max-width:991px){
+    #topc{
+        margin-top: 50px;
+       
+    }
+
+}
+
+@media(max-width:991px){
+    #topc .row .col-lg-6 .text-center .row .col-12 .form-group br{
+        display: block;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1052px){
+    #kids br{
+        display: none;
+    }
+ }
+
+
+ @media(max-width:991px){
+    #topc .row .col-lg-6 .text-center .row .col-12 .form-group br{
+        display: block;
+    }
+
+}

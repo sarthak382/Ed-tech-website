@@ -1,0 +1,249 @@
+
+#London{
+    column-gap: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#Paris{
+    column-gap: 55px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+#Tokyo{
+    column-gap: 55px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#mumbai{
+    column-gap: 55px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#india{
+    column-gap: 55px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#ac{
+    column-gap: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.acc{
+   position: relative;
+   overflow: hidden;
+   border-radius: 0.25rem;
+   width: 100%;
+   box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+   /* border-color: transparent; */
+   /* border-width: 1px; */
+   border: 1px solid transparent ;
+   max-height: 100%;
+   opacity: 1;
+   	margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    width:17.5rem;
+    height: 43.80rem;
+}
+
+.acc:hover{
+    border: 1px solid orange ;
+}
+
+.acbgw{
+    padding-top: 3rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color:#E9F2FF;
+}
+
+@media (min-width: 1024px) {
+    .acbgw{
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+}
+
+.acip{
+    width: 8rem;
+    position: absolute;
+    top: 0px;
+    margin-top: 1rem;
+    left: 0px;
+    margin-left: -0.25rem;
+    
+}
+
+.ac20c{
+    position: absolute;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    top: 0px;
+    margin-left: 1.25rem;
+    color: rgb(255 255 255);
+    font-weight: 600;
+}
+/* dhdhd */
+.acc1{
+    text-align: center;
+}
+
+.acc1rcs{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color:#2F80ED;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+.acc1aicp{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: grey;
+    margin-left: 2px ;
+    margin-right: 2px ;
+    margin-top: 0.5rem;
+    margin-bottom: 0.50rem;
+}
+
+.acc1pp{
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 0.5rem; */
+}
+
+.acc1pp1{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    color: grey;
+    /* margin-top: 0.5rem; */
+    
+}
+.acc160a{
+    border-bottom: 2px solid grey;
+    /* border-bottom-width: 2px; */
+    /* border-color: grey; */
+    /* margin-top: 0.5rem; */
+    margin-bottom: 0.50rem;
+}
+
+.acc160a1{
+    border-bottom: 2px solid grey;
+    /* border-bottom-width: 2px; */
+    /* border-color: grey; */
+    width: auto;
+    display: inline-block;
+    /* margin-top: 0.5rem; */
+    margin-bottom: 0.25rem;
+}
+
+/* hdhdh */
+
+
+.acmidbgw{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 1rem;
+    height:420px;
+}
+
+.acmidspace{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+    .acmidspace{
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+}
+
+.acmidspace1{
+    color: grey;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    /* margin-top: 0.75rem; */
+    margin-bottom: 5rem;
+}
+
+.acmidip{
+    display: flex;
+    margin-top: 0.50rem;
+}
+
+.acmidsp{
+    margin-left: 0.25rem;
+    text-align: left;
+    font-weight: 400;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#aclast{
+    color: grey;
+    /* padding-left: 1.5rem; */
+    /* padding-right: 1.5rem; */
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    background:#F5F9FF;
+}
+
+@media (min-width: 768px) {
+    #aclast{
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+}
+
+.aclastip{
+    display: flex;
+    margin-top: 0.50rem;
+}
+
+.aclastrcsc{
+    margin-left: 0.25rem;
+    text-align: left;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.aclast1{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background:#E9F2FF;
+    text-align: center;
+}
+
+.aclast1vc{
+    color: orange;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+}
+
+.aclastimg{
+    display: inline;
+    width: 0.5rem;
+}
